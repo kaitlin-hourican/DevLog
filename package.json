@@ -1,0 +1,32 @@
+{
+  "name": "devlog",
+  "version": "1.0.0",
+  "description": "A stripped-down issue tracker where you log bugs, assign severity, and track resolution status — like a personal GitHub Issues. 🐛",
+  "main": "index.js",
+  "scripts": {
+    "dev": "nodemon --exec ts-node src/server.ts",
+    "build": "tsc",
+    "start": "node dist/server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/kaitlin-hourican/DevLog.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "bugs": {
+    "url": "https://github.com/kaitlin-hourican/DevLog/issues"
+  },
+  "homepage": "https://github.com/kaitlin-hourican/DevLog#readme",
+  "dependencies": {
+    "mysql2": "^3.22.4",
+    "ts-node": "^10.9.2",
+    "typescript": "^6.0.3"
+  },
+  "devDependencies": {
+    "@types/node": "^25.9.1",
+    "nodemon": "^3.1.14"
+  }
+}
